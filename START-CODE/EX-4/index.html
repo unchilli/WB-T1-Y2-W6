@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linglee Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!--  LEFT: SIDEBAR  -->
+    <aside class="sidebar">
+      <div class="logo">
+        <span class="logo-icon">L</span>
+        <span class="logo-text">Linglee</span>
+      </div>
+
+      <nav class="menu">
+        <a href="#" class="active">🏠 Dashboard</a>
+        <a href="#">📁 Classes</a>
+        <a href="#">📄 Resources</a>
+        <a href="#">📅 Learning plan</a>
+        <a href="#">💬 Chat</a>
+        <a href="#">⚙️ Settings</a>
+      </nav>
+
+      <div class="upgrade">
+        <p>Upgrade to <strong>PRO</strong> for more resources</p>
+        <button>Upgrade</button>
+      </div>
+    </aside>
+
+    <!--  MIDDLE: MAIN CONTENT -->
+    <main class="main">
+
+      <header class="topbar">
+        <h1>Dashboard</h1>
+        <span class="date">20 Sep 2019, Friday</span>
+      </header>
+
+      <!-- Pink welcome banner -->
+      <section class="welcome">
+        <h2>Welcome back Dana!</h2>
+        <p>You've learned 80% of your goal this week! Keep it up and improve your results!</p>
+      </section>
+
+      <!-- Two cards side by side: results + chart -->
+      <section class="cards-row">
+
+        <div class="card">
+          <h3>Latest results</h3>
+
+          <div class="result">
+            <span>Unit 5 - Technology</span>
+            <div class="bar"><div class="fill red" style="width: 28%"></div></div>
+            <span>28%</span>
+          </div>
+          <div class="result">
+            <span>Unit 12 - Ecology</span>
+            <div class="bar"><div class="fill blue" style="width: 44%"></div></div>
+            <span>44%</span>
+          </div>
+          <div class="result">
+            <span>Unit 9 - Real estate</span>
+            <div class="bar"><div class="fill blue" style="width: 40%"></div></div>
+            <span>40%</span>
+          </div>
+          <div class="result">
+            <span>Unit 8 - Education</span>
+            <div class="bar"><div class="fill red" style="width: 15%"></div></div>
+            <span>15%</span>
+          </div>
+          <div class="result">
+            <span>Unit 16 - Job market</span>
+            <div class="bar"><div class="fill blue" style="width: 76%"></div></div>
+            <span>76%</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Time spent on learning</h3>
+
+          <!-- Simple bar chart made with divs. Each .day is one column. -->
+          <div class="chart">
+            <div class="day"><div class="column" style="height: 70%"></div><small>Mon</small></div>
+            <div class="day"><div class="column" style="height: 90%"></div><small>Tue</small></div>
+            <div class="day"><div class="column" style="height: 60%"></div><small>Wed</small></div>
+            <div class="day"><div class="column" style="height: 85%"></div><small>Thu</small></div>
+            <div class="day"><div class="column" style="height: 50%"></div><small>Fri</small></div>
+            <div class="day"><div class="column" style="height: 95%"></div><small>Sat</small></div>
+            <div class="day"><div class="column" style="height: 75%"></div><small>Sun</small></div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Three colored course cards -->
+      <section>
+        <h3 class="section-title">Your courses</h3>
+        <div class="courses">
+          <div class="course purple">
+            <small>Business English</small>
+            <strong>Grammar</strong>
+          </div>
+          <div class="course lilac">
+            <small>Common English</small>
+            <strong>Phrasal verbs</strong>
+          </div>
+          <div class="course coral">
+            <small>Business Spanish</small>
+            <strong>Vocabulary</strong>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========== RIGHT: PROFILE ========== -->
+    <aside class="profile">
+
+      <div class="user">
+        <div class="avatar">👩</div>
+        <h3>Meas Chhordana</h3>
+        <p>Student</p>
+      </div>
+
+      <div class="languages">
+        <div class="language">
+          <span class="level">B2</span>
+          <div>
+            <strong>English</strong>
+            <small>High intermediate</small>
+          </div>
+        </div>
+        <div class="language">
+          <span class="level">C1</span>
+          <div>
+            <strong>Spanish</strong>
+            <small>Advanced</small>
+          </div>
+        </div>
+      </div>
+
+      <h3>Reminders</h3>
+      <ul class="reminders">
+        <li><strong>Eng - Vocabulary test</strong><small>24 Sep 2019, Friday</small></li>
+        <li><strong>Eng - Send grammar homework</strong><small>29 Sep 2019, Wednesday</small></li>
+        <li><strong>Spanish - Send essay</strong><small>01 Oct 2019, Monday</small></li>
+      </ul>
+
+    </aside>
+
+  </div>
+
+</body>
+</html>
